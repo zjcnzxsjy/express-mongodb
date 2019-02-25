@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const models = [];
-console.log(path.resolve(__dirname, './models'))
+
 const files = fs.readdirSync(path.resolve(__dirname, './models'));
 
 function getModels(files) {
